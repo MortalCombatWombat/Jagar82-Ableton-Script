@@ -11,7 +11,7 @@
 ;5. Some hotkeys use a kind of imagesearch. Set Windows to 1920 x 1080 and 150% zoom for an optimal experience.
 ;6. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo . MIT License B) ).
 
-(Hope you enjoy :D)
+;(Hope you enjoy :D)
 
 ;>----------------------------------------------------------- SCRIPT SHORTCUTS ------------------------------------------------------------------------<
 
