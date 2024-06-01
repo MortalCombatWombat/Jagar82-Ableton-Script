@@ -1105,9 +1105,19 @@ return
 
 ;>----------------------------------------------------------------X4 BUPLICATE--------------------------------------------------------------------< 
 
-;(Ctrl + B: Duplicate a selected region 4 times);
+;(Ctrl + B: Duplicate selected clips 4 times);
 
 ^b::
+Send ^{d 3} 
+return
+
+;>----------------------------------------------------------------X4 BUPLICATE--------------------------------------------------------------------< 
+
+;(Ctrl + Shift + B: Duplicate an entire section 4 times);
+
+^+b::
+Send ^{l}
+Send ^+{l}
 Send ^{d 3} 
 return
 
