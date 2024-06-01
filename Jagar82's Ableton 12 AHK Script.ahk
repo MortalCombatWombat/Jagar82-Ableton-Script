@@ -1111,14 +1111,23 @@ return
 Send ^{d 3} 
 return
 
-;>----------------------------------------------------------------X4 BUPLICATE--------------------------------------------------------------------< 
+;>--------- X4 BUPLICATE SECTION --------< 
 
-;(Ctrl + Shift + B: Duplicate an entire section 4 times);
+;(Ctrl + Shift + B: Duplicate an entire section 4 times without overwriting clips);
 
 ^+b::
+Send ^+{d 3}
+return
+
+;>--------- X4 BUPLICATE SECTION (OVERWRITE CLIPS) --------< 
+
+;(Ctrl + Shift + B: Duplicate an entire section 4 times, overwriting the clips);
+
+^+!b::
 Send ^{l}
 Send ^+{l}
-Send ^{d 3} 
+Send ^{d 3}
+Send ^{l}
 return
 
 ;>---------------------------------------------------------------- ALTERNATE REDO --------------------------------------------------------------------<
