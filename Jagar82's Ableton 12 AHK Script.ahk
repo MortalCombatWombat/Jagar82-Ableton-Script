@@ -7,10 +7,12 @@
 ;1. Download and install Autohotkey v2: https://www.autohotkey.com/
 ;2. Download and save these Scripts to your lib (C:\Users\Username\Documents\AutoHotkey\lib) as HideSystemCursor and FindText, correspondingly. Credits to Feiyue and Mikeyww. ; https://www.autohotkey.com/boards/viewtopic.php?f=6&t=17834 - https://www.autohotkey.com/boards/viewtopic.php?t=102022
 ;3. Download and install Powertoys: https://github.com/microsoft/PowerToys/releases/tag/v0.81. (Or any software that allows you to remap keys. Running it at startup is recommended).
-;4. Remap Right Shift and Right Alt to any key you wish . I did it with Caps Lock (RShift) and < (RAlt)(Spanish Layout).
-;5. Some hotkeys use a kind of imagesearch. Set Windows to 1920 x 1080 and 150% zoom for an optimal experience.
-;6. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo . MIT License B) ).
+;4. Remap Right Shift and Right Alt to any key you wish . I did it with Caps Lock (RShift) and < (RAlt) (Spanish Layout).
+;5. Making racks or presets (.adg, .adv) for your most used effects and instruments is recommended, so Ableton avoids choosing the wrong effect. Then search “Effect Picker” in this script and rename the effects, and customize the hotkeys.
+;6. Some hotkeys use a kind of imagesearch (Record with Double R, Find in selected folder). Set Windows to 1920 x 1080 and 150% zoom for an optimal experience.
+;7. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo and credit Oversampled and LES Scripts. MIT License B) ).
 
+;If you know Max For Live and want to collaborate with this script, please hit me up at jagarj82@gmail.com. Thank you in advance.
 ;(Hope you enjoy :D)
 
 ;>----------------------------------------------------------- SCRIPT SHORTCUTS ------------------------------------------------------------------------<
@@ -30,6 +32,17 @@ return
 
 PgDn::   
 Reload
+Return
+
+;>-------------------------------- TOGGLE CAPSLOCK  --------------------------------<
+
+;(Doble Capslock: Toggle Capslock as RShift / Caps)
+
+!Capslock::
+If GetKeyState("CapsLock", "T")
+	SetCapsLockState, Off
+Else
+	SetCapsLockState, On
 Return
 
 ;>----------------------------------------------------------- GENERAL PARAMETERS ------------------------------------------------------------------------< 
