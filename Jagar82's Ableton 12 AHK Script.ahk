@@ -12,7 +12,7 @@
 ;6. Some hotkeys use a kind of imagesearch (Record with Double R, Find in selected folder). Set Windows to 1920 x 1080 and 150% zoom for an optimal experience.
 ;7. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo and credit Oversampled and LES Scripts. MIT License B) ).
 
-;If you know Max For Live and want to collaborate with this script, please hit me up at jagarj82@gmail.com. Thank you in advance.
+;If you know Max For Live or Live's API and want to collaborate with this script, please hit me up at jagarj82@gmail.com. Thank you in advance.
 ;(Hope you enjoy :D)
 
 ;>----------------------------------------------------------- SCRIPT SHORTCUTS ------------------------------------------------------------------------<
