@@ -134,41 +134,43 @@ if (A_PriorHotkey <> "~Esc" or A_TimeSincePriorHotkey > 300)
 Send {f11}
 return
 
-;>-------------------------------- FOCUS VIEWS --------------------------------< 
+;>-------------------------------- FOCUS VIEWS / MENU --------------------------------< 
 
-#+k::
+;(Right Control + Initial: Focus view / menu {Clip, Device, File Manager})
+
+RControl & K::
 Send !{0}
 return
 
-#+s::
+RControl & S::
 Send !{1}
 return
 
-#+a::
+RControl & A::
 Send !{2}
 return
 
-#+c::
+RControl & C::
 Send !{3}
 return
 
-#+d::
+RControl & D::
 Send !{4}
 return
 
-#+b::
+RControl & B::
 Send !{5}
 return
 
-#+g::
+RControl & G::
 Send !{6}
 return
 
-#+h::
+RControl & H::
 Send !{7}
 return
 
-#+t::
+RControl & T::
 Send !{n}
 Send {t}
 return
