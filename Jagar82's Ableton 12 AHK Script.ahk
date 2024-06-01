@@ -383,7 +383,7 @@ BlockInput, On
 
 Send ^{f}
 
-;Send #Tag
+;SendRaw #Tag
 ;Send {Enter}
 Send %item%
 
