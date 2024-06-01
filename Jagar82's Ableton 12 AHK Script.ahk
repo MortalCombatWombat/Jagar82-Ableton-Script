@@ -162,27 +162,25 @@ return
 
 ;>-------------------------------- ZOOM IN / OUT --------------------------------<
 
-;(Upper Side Mouse Button: Zoom In)
-
-XButton2::
+^XButton2::
 Send {+}
 Return
 
-;(Ctrl + Upper Side Mouse Button: Zoom In |Z|)
+;(Upper Side Mouse Button: Zoom In |Z|)
 
-^XButton2::
+XButton2::
 Send {z}
 Return
 
-;(Lower Side Button: Zoom Out)
+;(Ctrl + Lower Side Button: Zoom Out)
 
-XButton1::
+^XButton1::
 Send {-}
 Return
 
-;(Ctrl + Lower Side Mouse Button: Zoom Out |x|)
+;(Lower Side Mouse Button: Zoom Out |x|)
 
-^XButton1::
+XButton1::
 Send {x}
 Return
 
@@ -1716,6 +1714,20 @@ return
     KeyPressCount := 0 
     SetTimer, KeyPressMonitorShiftD2, Off 
     return    
+
+;>-------------------------------- TOGGLE TRACKS ON / OFF --------------------------------<
+
+;Shift+Function (1 to 9): Bypass and toggle tracks as usual
+
++f1::Send {f1}
++f2::Send {f2}
++f3::Send {f3}
++f4::Send {f4}
++f5::Send {f5}
++f6::Send {f6}
++f7::Send {f7}
++f8::Send {f8}
++f9::Send {f9}
 
 ;>-------------------------------- SLICE NOTES --------------------------------<
 
