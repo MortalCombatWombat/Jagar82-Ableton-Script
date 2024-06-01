@@ -106,7 +106,7 @@ toggle := true
 
 ;(Bypass:: Send Shift + Tab to navigate with Ctrl + Tab)
 
-Ctrl & Tab::Send {tab}
+Ctrl & Tab::Send +{tab}
 
 ;>-------------------------------- TOGGLE FULLSCREEN --------------------------------<
 
