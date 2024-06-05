@@ -1,4 +1,4 @@
-Autohotkey script by Jagar82 (Based on Oversampled's Ahk Script - https://oversampled.us/products/abletonahk - and Live Enhancement Suite - https://github.com/LiveEnhancementSuite/LESforWindows)  
+Autohotkey script by Jagar82 (Inspired by Oversampled's Ahk Script - https://oversampled.us/products/abletonahk - and Live Enhancement Suite - https://github.com/LiveEnhancementSuite/LESforWindows)  
 
 STEPS
 
