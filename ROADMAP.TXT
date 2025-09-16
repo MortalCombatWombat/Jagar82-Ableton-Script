@@ -1,1 +1,0 @@
-1. Implement a GUI to insert effects
