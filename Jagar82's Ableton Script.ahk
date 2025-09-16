@@ -3,9 +3,9 @@
 ;1. Download and install Autohotkey v2: https://www.autohotkey.com/
 ;2. Download and install Sharpkeys: https://github.com/randyrants/sharpkeys - https://apps.microsoft.com/store/detail/XPFFCG7M673D4F?ocid=pdpshare. Remap Right Control and Right Alt to any key you wish . I did it with Caps Lock (RCtrl) and < (RAlt).
 ;3. Activate "Use Tab Key to Move Focus" (pretty much all of the shortcuts won't work or will go crazy if you don't) - Settings / Use Tab Key to Navigate & Wrap Tab Navigation / ON.
-;4. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo and credits it. MIT License B) ).
+;4. Feel the power ᕙ(⇀‸↼‶)ᕗ  (Don't forget that you can modify all of this to your taste and even upload it; just remember to link this repo and credit it. MIT License B) ).
 
-;NOTE: Quick Inserts can't sort out your favorite devices in the Ableton browser. To use it more accurately, activate the ''Rank'' filter in the browser so it sorts by your most used FX/Devices.
+;NOTE: Quick Inserts can't sort out your favorite devices in the Ableton browser. To use it more accurately, activate the "Rank" filter in the browser so it sorts by your most used FX/Devices.
 
 ;If you know Max For Live or Live's API and want to collaborate with this project, please hit me up at jagarj82@gmail.com. Thank you in advance.
 
@@ -1720,3 +1720,4 @@ Return
 
 
 #IfWinActive
+
