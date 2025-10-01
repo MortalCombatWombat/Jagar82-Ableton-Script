@@ -1,3 +1,5 @@
+Hi! Welcome to Jagar82's Ableton Script. These are the instructions for the installation process and settings you need to tweak in order to use the script in its full power :D. Have fun!
+
 INSTALLATION AND USE STEPS
 
 1. Download and install Autohotkey v2: https://www.autohotkey.com/download/ahk-v2.exe
